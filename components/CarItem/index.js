@@ -19,11 +19,11 @@ const CarItem = ({ car }) => {
         </Text>
       </View>
       <View style={styles.buttonContainer}>
-        <StyledButton type="primary" content={'Custom Order'} onPress={() => console.warn('custom order pressed')} />
-        <StyledButton type="secondary" content={'Existing Inventory'} onPress={() => console.warn('inventory pressed')} />
+        <StyledButton type="primary" content={'Custom Order'} onPress={() => console.warn('Custom Order button was pressed')} />
+        <StyledButton type="secondary" content={'Existing Inventory'} onPress={() => console.warn('Existing Inventory button was pressed')} />
       </View>
     </View>
   )
-}
+};
 
 export default CarItem;

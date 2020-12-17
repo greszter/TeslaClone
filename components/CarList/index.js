@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { View, FlatList, Dimensions } from 'react-native';
 
 import CarItem from '../CarItem';
@@ -18,6 +18,6 @@ const CarList = () => {
       />
     </View>
   )
-}
+};
 
 export default CarList;
